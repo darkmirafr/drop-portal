@@ -1,0 +1,15 @@
+[
+    {
+        "url" : "portal",
+        "actif" : true,
+        "libelle":"portal",
+        "class":"nav-portal",
+        "submenus":
+            [
+                {
+                    "url" : "portal",
+                    "libelle":"NAVBAR_LEFT_AAAAA"
+                }
+            ]
+    }
+]

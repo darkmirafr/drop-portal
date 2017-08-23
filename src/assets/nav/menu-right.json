@@ -1,0 +1,19 @@
+[
+    {
+        "url" : "user",
+        "actif" : false,
+        "libelle":"Utilisateur",
+        "class":"nav-user",
+        "submenus":
+            [
+                {
+                    "url" : "register",
+                    "libelle":"Créer un compte"
+                },
+                {
+                    "url" : "login",
+                    "libelle":"Se connecter"
+                }
+            ]
+    }
+]

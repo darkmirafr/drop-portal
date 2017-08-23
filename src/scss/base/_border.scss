@@ -1,0 +1,13 @@
+$i: 1;
+$nb : 30;
+@each $pos in '',-top, -right, -bottom, -left {
+    $i:1;
+    @while $i < $nb {
+      .border#{$pos}-#{$i}{border#{$pos} : #{$i}px solid;}
+      $i: $i + 1;
+      
+    }
+}
+.border-none{border : none;}
+
+border-white{border-color:#fff;}

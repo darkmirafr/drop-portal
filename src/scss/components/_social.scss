@@ -1,0 +1,51 @@
+.bloc-white-transparent{
+    border:2px solid #56311e;
+    color:#000;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.rsv-connect{
+    color : #000;
+    text-align:center;
+    border:1px solid #56311e;
+    background: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin : auto;
+    padding : 5px;
+    @include border-radius(7px);
+}
+
+.rsv-connect:hover{
+    border:2px solid #56311e;
+    
+}
+
+.item-connect{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.item-connect:hover{
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.facebook-connect{
+    color : #3765a3;
+}
+
+.linkedin-connect{
+    color : #0274b3;
+}
+
+.google-connect{
+    color :#de4c3f;
+}
+
+.windows-connect{
+    color : #00adef;
+}
+
+.twitter-connect{
+    color : #28a9e2;
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "url" : "user",
+        "actif" : false,
+        "libelle":"NAVBAR_RIGHT_MY_ACCOUNT",
+        "submenus":
+            [
+                {
+                    "url" : "profil",
+                    "libelle":"NAVBAR_RIGHT_PROFIL"
+                },
+                {
+                    "url" : "logout",
+                    "libelle":"NAVBAR_RIGHT_LOGOUT"
+                }
+            ]
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "MODULE_APP" : "MODULE_APP",
+    "LANGUE" : "Français",
+    
+    "************** NAVBAR RIGHT" : "**********************",
+    "NAVBAR_RIGHT_MY_ACCOUNT" : "Mon compte",
+    "NAVBAR_RIGHT_PROFIL" : "Mon profil",
+    "NAVBAR_RIGHT_LOGOUT" : "Se déconnecter",
+    "NAVBAR_RIGHT_LANGUES" : "Langues",
+    "NAVBAR_RIGHT_LANGUES_CURRENT" : "Français",
+    "NAVBAR_RIGHT_LANGUES_CURRENT_SHORT" : "fr",
+    "NAVBAR_RIGHT_LANGUES_FR" : "Français",
+    "NAVBAR_RIGHT_LANGUES_FR_SHORT" : "fr",
+    "NAVBAR_RIGHT_LANGUES_EN" : "English",
+    "NAVBAR_RIGHT_LANGUES_EN_SHORT" : "en"
+}
