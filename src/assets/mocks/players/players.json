@@ -1,0 +1,102 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "green",
+      "players": [
+        {
+          "id": 1,
+          "pseudo": "robert",
+          "vote": "left",
+          "team": null
+        },
+        {
+          "id": 2,
+          "pseudo": "gertrude",
+          "vote": "right",
+          "team": null
+        },
+        {
+          "id": 3,
+          "pseudo": "gontrand",
+          "vote": "forward",
+          "team": null
+        },
+        {
+          "id": 4,
+          "pseudo": "bernard",
+          "vote": "left",
+          "team": null
+        },
+        {
+          "id": 10,
+          "pseudo": "chose",
+          "vote": null,
+          "team": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "black",
+      "players": [
+        {
+          "id": 5,
+          "pseudo": "parfait",
+          "vote": "left",
+          "team": null
+        },
+        {
+          "id": 6,
+          "pseudo": "exaucee",
+          "vote": "right",
+          "team": null
+        },
+        {
+          "id": 7,
+          "pseudo": "bebere",
+          "vote": "left",
+          "team": null
+        },
+        {
+          "id": 8,
+          "pseudo": "astrude",
+          "vote": null,
+          "team": null
+        },
+        {
+          "id": 9,
+          "pseudo": "machin",
+          "vote": null,
+          "team": null
+        },
+        {
+          "id": 13,
+          "pseudo": "traitre",
+          "vote": null,
+          "team": null
+        }
+      ]
+    }
+  ],
+  "players_without_team": [
+    {
+      "id": 11,
+      "pseudo": "bidule",
+      "vote": "left",
+      "team": null
+    },
+    {
+      "id": 12,
+      "pseudo": "truc",
+      "vote": "forward",
+      "team": null
+    }
+  ],
+  "vote_session": {
+    "id": 1,
+    "session_start": "2017-08-30T09:56:47+0000",
+    "session_end": "2017-08-30T09:57:07+0000",
+    "session_duration": 20
+  }
+}
