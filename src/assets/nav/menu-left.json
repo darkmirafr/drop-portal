@@ -2,7 +2,7 @@
     {
         "url" : "portal",
         "actif" : true,
-        "libelle":"portal",
+        "libelle":"NAVBAR_LEFT_STREAM",
         "class":"nav-portal",
         "submenus":
             [

@@ -3,6 +3,9 @@
     "LANGUE" : "English",
     
     "************** NAVBAR LEFT" : "**********************",
+    "NAVBAR_LEFT" : "Stream",
+    
+    "************** NAVBAR LEFT" : "**********************",
     "NAVBAR_LEFT_LIST_CHAMPIONS" : "List of champions",
     "NAVBAR_LEFT_CHAMPION_STATS" : "Stats",
     "NAVBAR_LEFT_CHAMPION_FIND" : "Find a champion",

@@ -2,6 +2,9 @@
     "MODULE_APP" : "MODULE_APP",
     "LANGUE" : "Français",
     
+    "************** NAVBAR LEFT" : "**********************",
+    "NAVBAR_LEFT_STREAM" : "Diffusion",
+
     "************** NAVBAR RIGHT" : "**********************",
     "NAVBAR_RIGHT_MY_ACCOUNT" : "Mon compte",
     "NAVBAR_RIGHT_PROFIL" : "Mon profil",
