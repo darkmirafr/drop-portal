@@ -14,6 +14,8 @@ cd drop-portal/
 
 npm install
 
+./node_modules/.bin/ng set defaults.styleExt scss
+
 ./node_modules/.bin/ng serve
 ```
 
