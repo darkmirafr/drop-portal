@@ -3,12 +3,15 @@
           aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">DROP - PORTAL</a>
+  <a class="navbar-brand" href="#">DROP-PORTAL</a>
 
   <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="exCollapsingNavbar2">
     <div class="navbar-nav mr-auto">
+      <a *ngFor="let menu of menuLeft" class="nav-item nav-link" routerLink="{{menu.url}}" routerLinkActive="active" translate>{{menu.libelle}}</a>
+    </div>
 
-        <span *ngFor="let menu of menuLeft" ngbDropdown class="nav-item dropdown">
+    <!-- If a day we need submenus -->
+      <!--  <span *ngFor="let menu of menuLeft" ngbDropdown class="nav-item dropdown">
             
             <span ngbDropdownToggle class="nav-link dropdown-toggle cursor-pointer" id="dropdown01"  translate>{{menu.libelle}}</span>
             
@@ -17,9 +20,7 @@
             </div>
     
           </span>
-
-    </div>
-
+      -->
     <div class="navbar-nav navbar-right mr-auto">
         <span ngbDropdown class="nav-item dropdown">
             

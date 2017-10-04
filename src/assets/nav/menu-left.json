@@ -4,12 +4,9 @@
         "actif" : true,
         "libelle":"NAVBAR_LEFT_STREAM",
         "class":"nav-portal",
+        "url" : "portal",
         "submenus":
             [
-                {
-                    "url" : "portal",
-                    "libelle":"NAVBAR_LEFT_AAAAA"
-                }
             ]
     }
 ]
