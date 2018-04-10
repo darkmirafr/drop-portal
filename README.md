@@ -1,3 +1,6 @@
+#Coninuous integration status
+[![Build Status](https://travis-ci.org/Darkmira/drop-portal.svg?branch=develop)](https://travis-ci.org/Darkmira/drop-portal)
+
 #Drop portal
 Web interface to view the arena in video, and follow your robot which execute your orders.
 
