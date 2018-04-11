@@ -10,4 +10,7 @@ $fa-font-path: "~font-awesome/fonts";
 @import "base/cursors";
 @import "base/padding";
 
+@import "components/bots";
+
+@import "layout/body.scss";
 @import "layout/wrap.scss";
