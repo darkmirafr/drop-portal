@@ -28,7 +28,10 @@
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
     "ngx-filter-pipe": "^2.1.0",
+    "npm": "^5.8.0",
     "rxjs": "^5.5.9",
+    "to": "^0.2.9",
+    "update": "^0.7.4",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
