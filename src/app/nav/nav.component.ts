@@ -24,6 +24,8 @@ export class NavComponent implements OnInit {
   }
 
   ngOnInit() {
+    var a = document.getElementsByTagName("audio")[0];
+    a.play();
   }
 
 }
