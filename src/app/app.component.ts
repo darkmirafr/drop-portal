@@ -12,7 +12,7 @@ import 'rxjs/Rx';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Drop-Portal';
   theme;
   sub: Subscription;
   constructor(private translate: TranslateService,private router: Router) {
