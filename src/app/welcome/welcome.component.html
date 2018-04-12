@@ -1,17 +1,30 @@
-
-
 <div class="row">
     <div class="col greenbot-textcolor">
-            <div class="row text-right">
-                <div class="col text-right">
-                    <h1>DROP</h1>
-                </div>
+        <div class="row text-right">
+            <div class="col text-right">
+                <h1>DROP</h1>
             </div>
-            <div class="row">
-                    <p>{{'WELCOME_INTRO' | translate}}</p>
-            </div>
+        </div>
     </div>
     <div class="col darkbot-textcolor">
-            <h1>PORTAL</h1>
+        <h1>PORTAL</h1>
+    </div>
+</div>
+<div class="padding-top-50">
+    <div *ngFor="let number of [1,2,3,4,5,6,7,8]" class="row padding-top-10 font-italic" 
+            [ngStyle]="{
+                'opacity': '0',
+                'font-size' : '24px',
+                '-webkit-animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards',
+                '-moz-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
+                    '-o-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
+                        'animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards'
+            }">
+        <div class="col greenbot-textcolor text-center">
+            <p *ngIf="number<5">{{'WELCOME_LORE_P'+number | translate}}</p>
+        </div>
+        <div class="col darkbot-textcolor  text-center">
+            <p *ngIf="number>=5">{{'WELCOME_LORE_P'+number | translate}}</p>
+        </div>
     </div>
 </div>
