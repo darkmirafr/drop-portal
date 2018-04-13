@@ -1,0 +1,19 @@
+<div class="row">
+    <h1>Droportal</h1>
+</div>
+
+<div class="row">
+    <div style="display:none">
+            <div class="embed-responsive embed-responsive-4by3 video-youtube-soft">
+                    <iframe class="embed-responsive-item" [src]="sCurrentVideo" ></iframe>
+            </div>
+    
+        <canvas id="sourcecopy" width="640" height="360"></canvas>
+    </div>
+    <div>
+        <div style="z-index:1;position:relative;text-align:center;font-size:16px;font-weight:bold;width:1000px;top:60px;">Click video to blow it up!</div>
+        <canvas id="output" width="1000" height="600" onmousedown="dropBomb(event, this)" style="border: solid 5px #666666"></canvas>
+        <br/>You may need to reload the page if video isn't streaming properly. Video courtesy of
+        <a href="http://www.bigbuckbunny.org/">Big Buck Bunny</a>
+    </div>
+</div>

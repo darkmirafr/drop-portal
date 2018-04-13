@@ -5,12 +5,6 @@ import { Routes,
 import { WelcomeComponent }       from './welcome.component';
 
 const routes: Routes = [
-  { path: '',
-    component: WelcomeComponent,
-    children: [
-      { path: '',    component: WelcomeComponent, data: {theme:"default"} }
-    ]
-  },
   { path: 'welcome',
     component: WelcomeComponent,
     children: [
