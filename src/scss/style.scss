@@ -1,16 +1,15 @@
 @import "theme/theme-default.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-$fa-font-path: "~font-awesome/fonts";
-@import "../../node_modules/font-awesome/scss/font-awesome.scss";
-
 @import "utils/mixin";
 
 @import "base/colors";
 @import "base/cursors";
+@import "base/effects.scss";
 @import "base/padding";
 
 @import "components/bots";
 
 @import "layout/body.scss";
 @import "layout/wrap.scss";
+@import "layout/header.scss";
