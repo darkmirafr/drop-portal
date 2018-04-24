@@ -11,20 +11,54 @@
     </div>
 </div>
 <div class="padding-top-50">
-    <div *ngFor="let number of [1,2,3,4,5,6,7,8]" class="row padding-top-10 font-italic" 
-            [ngStyle]="{
-                'opacity': '0',
-                'font-size' : '24px',
-                '-webkit-animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards',
-                '-moz-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
-                    '-o-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
-                        'animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards'
-            }">
-        <div class="col greenbot-textcolor text-center">
-            <p *ngIf="number<5">{{'WELCOME_LORE_P'+number | translate}}</p>
+
+    <!-- LIGNE HAUTE-->
+    <div class="row">
+        <div class="col">
+            <div *ngFor="let number of [1,2,3,4]" class="row padding-top-10 font-italic" [ngStyle]="{
+                    'opacity': '0',
+                    'font-size' : '24px',
+                    '-webkit-animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards',
+                    '-moz-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
+                        '-o-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
+                            'animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards'
+                }">
+                <div class="row">
+                    <div class="col greenbot-textcolor text-center">
+                        {{'WELCOME_LORE_P'+number | translate}}
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col darkbot-textcolor  text-center">
-            <p *ngIf="number>=5">{{'WELCOME_LORE_P'+number | translate}}</p>
+        <div class="col darkbot-textcolor text-center padding-10">
+            <button class="btn btn-default">Rejoindre le Greenempire</button>
         </div>
     </div>
+    
+    <!-- LIGNE BASSE-->
+    <div class="row">
+        <div class="col">
+                <div class="col darkbot-textcolor text-center">
+                        <button class="btn btn-default align-self-center">Rejoindre la Darkcommunity</button>
+                </div>
+        </div>
+        <div class="col">
+            <div *ngFor="let number of [5,6,7,8]" class="row padding-top-10 font-italic" [ngStyle]="{
+                    'opacity': '0',
+                    'font-size' : '24px',
+                    '-webkit-animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards',
+                    '-moz-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
+                        '-o-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
+                            'animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards'
+                }">
+                <div class="row">
+                    <div class="col darkbot-textcolor text-center">
+                        {{'WELCOME_LORE_P'+number | translate}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
