@@ -13,6 +13,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.module';
 import { WelcomeModule }    from './welcome/welcome.module';
 import { DroprobotModule }    from './droprobot/droprobot.module';
+import { ArticleModule }    from './article/article.module';
 
 // AoT requires an exported function for factories
 export function createTranslateLoader(http: HttpClient) {
@@ -36,6 +37,7 @@ export function createTranslateLoader(http: HttpClient) {
             deps: [HttpClient]
         }
     }),
+    ArticleModule,
     DroprobotModule,
     WelcomeModule,
     AppRoutingModule
