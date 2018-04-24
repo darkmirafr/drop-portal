@@ -14,7 +14,7 @@
 
     <!-- LIGNE HAUTE-->
     <div class="row">
-        <div class="col">
+        <div class="col padding-20">
             <div *ngFor="let number of [1,2,3,4]" class="row padding-top-10 font-italic" [ngStyle]="{
                     'opacity': '0',
                     'font-size' : '24px',
@@ -23,10 +23,8 @@
                         '-o-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
                             'animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards'
                 }">
-                <div class="row">
-                    <div class="col greenbot-textcolor text-center">
-                        {{'WELCOME_LORE_P'+number | translate}}
-                    </div>
+                <div class="col greenbot-textcolor text-center">
+                    {{'WELCOME_LORE_P'+number | translate}}
                 </div>
             </div>
         </div>
@@ -34,13 +32,13 @@
             <button class="btn btn-default">Rejoindre le Greenempire</button>
         </div>
     </div>
-    
+
     <!-- LIGNE BASSE-->
     <div class="row">
-        <div class="col">
-                <div class="col darkbot-textcolor text-center">
-                        <button class="btn btn-default align-self-center">Rejoindre la Darkcommunity</button>
-                </div>
+        <div class="col padding-20">
+            <div class="col darkbot-textcolor text-center">
+                <button class="btn btn-default align-self-center">Rejoindre la Darkcommunity</button>
+            </div>
         </div>
         <div class="col">
             <div *ngFor="let number of [5,6,7,8]" class="row padding-top-10 font-italic" [ngStyle]="{
@@ -51,10 +49,8 @@
                         '-o-animation': 'fadein 4s ease '+ ( number - 1 )*5 + 's forwards',
                             'animation': 'fadein 4s ease '+ ( number - 1)*5 + 's forwards'
                 }">
-                <div class="row">
-                    <div class="col darkbot-textcolor text-center">
-                        {{'WELCOME_LORE_P'+number | translate}}
-                    </div>
+                <div class="col darkbot-textcolor text-center">
+                    {{'WELCOME_LORE_P'+number | translate}}
                 </div>
             </div>
         </div>
