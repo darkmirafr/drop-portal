@@ -1,0 +1,30 @@
+{
+    "teams": [
+        {
+            "id": 1,
+            "name": "green",
+            "players": [
+                {
+                    "id": 1,
+                    "pseudo": "alcalyn_",
+                    "vote": "forward",
+                    "team": null
+                }
+            ]
+        }
+    ],
+    "players_without_team": [
+        {
+            "id": 2,
+            "pseudo": "LoginTmp",
+            "vote": null,
+            "team": null
+        }
+    ],
+    "vote_session": {
+        "id": 1,
+        "session_start": "2018-04-04T18:44:10+0000",
+        "session_end": "2018-04-04T18:44:30+0000",
+        "session_duration": 20
+    }
+}

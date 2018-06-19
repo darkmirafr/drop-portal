@@ -41,7 +41,6 @@ export function createTranslateLoader(http: HttpClient) {
     DroprobotModule,
     WelcomeModule,
     AppRoutingModule
-
   ],
   providers: [],
   bootstrap: [AppComponent],
