@@ -1,33 +1,14 @@
-## Coninuous integration status
-[![Build Status](https://travis-ci.org/Darkmira/drop-portal.svg?branch=develop)](https://travis-ci.org/Darkmira/drop-portal)
+# MdbAngularFree
 
-## Drop portal
-Web interface to view the arena in video, and follow your robot which execute your orders.
-
-## Install
-Needs nodejs and npm.
-
-```
-git clone git@github.com:Darkmira/drop-portal.git
-cd drop-portal/
-
-npm install
-
-./node_modules/.bin/ng set defaults.styleExt scss
-
-./node_modules/.bin/ng serve
-```
-
-Then access to the web interface here: [http://localhost:4200](http://localhost:4200)	 
-
-
------
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.5.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve mdb-angular-free` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Demo application
+
+Run `ng serve mdb-demo` for a demo application build with MDB Angular Pro components.
 
 ## Code scaffolding
 
@@ -35,7 +16,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
@@ -48,3 +29,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Remove demo application
+
+Type one of the below commands to remove demo application from this project:
+* npm run remove-demo-unix to remove demo application on UNIX based systems,
+* npm run remove-demo-windows to remove demo application on Windows systems.
